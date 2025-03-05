@@ -4,21 +4,6 @@
 
 Ten program umożliwia ukrywanie oraz odczytywanie informacji w plikach graficznych w formatach BMP i PNG. Działa poprzez modyfikację pikseli obrazu w sposób niewidoczny dla ludzkiego oka.
 
-## Wymagania
-
-- Kompilator obsługujący standard C++ (np. g++, clang, MSVC)
-- Biblioteka [fmt](https://github.com/fmtlib/fmt) (dla formatowania wyjścia)
-
-## Kompilacja
-
-Aby skompilować program, użyj komendy:
-
-```sh
- g++ main.cpp -o steganografia -std=c++20 -lfmt
-```
-
-Lub z użyciem CMake (jeśli masz skonfigurowany `CMakeLists.txt`).
-
 ## Flagi programu
 
 - `-i` / `--info` – Wyświetla informacje o pliku graficznym, takie jak jego format, rozdzielczość i inne metadane.
@@ -53,7 +38,4 @@ Aby uruchomić program w CLionie z odpowiednimi parametrami:
 - Program nie obsługuje innych formatów obrazów.
 - Przed uruchomieniem upewnij się, że masz prawa do edycji pliku graficznego.
 
-## Licencja
-
-Projekt udostępniany jest na licencji MIT. Możesz go dowolnie modyfikować i używać do własnych celów.
 
